@@ -23,6 +23,7 @@
 							id="nombres"
 							class="field"
 							required
+							maxlength="10"
 						/>
 					</div>
 					<div class="centrar">
@@ -353,7 +354,7 @@
 								v-model="persona.pago.tipo_pago"
 								required
 							/>
-							<label>Targeta debito</label>
+							<label>Tarjeta dèbito</label>
 
 							<input
 								type="radio"
@@ -361,7 +362,7 @@
 								v-model="persona.pago.tipo_pago"
 								required
 							/>
-							<label>Targeta credito</label>
+							<label>Tarjeta credito</label>
 						</div>
 					</div>
 					<div class="total">
